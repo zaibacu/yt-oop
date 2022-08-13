@@ -1,3 +1,5 @@
+package lt.griaustinis.yt.vending_machine;
+
 import java.util.*;
 
 public class Main {

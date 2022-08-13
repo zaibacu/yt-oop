@@ -1,3 +1,5 @@
+package lt.griaustinis.yt.vending_machine;
+
 public abstract class Item {
     private String name;
     private int code;
@@ -23,6 +25,6 @@ public abstract class Item {
 
     @Override
     public String toString() {
-        return String.format("<Item name='%s' code='%d' price=%.2f€>", name, code, price);
+        return String.format("<lt.griaustinis.yt.vending_machine.Item name='%s' code='%d' price=%.2f€>", name, code, price);
     }
 }

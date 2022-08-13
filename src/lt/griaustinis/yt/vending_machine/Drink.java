@@ -1,3 +1,5 @@
+package lt.griaustinis.yt.vending_machine;
+
 public class Drink extends Item{
     public Drink(String name, int code, double price) {
         super(name, code, price);
